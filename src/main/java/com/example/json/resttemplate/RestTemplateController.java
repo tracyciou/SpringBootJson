@@ -126,7 +126,7 @@ public class RestTemplateController {
         HttpHeaders requestHeaders2 = new HttpHeaders();
         requestHeaders2.set("header2", "456");
         requestHeaders2.setContentType(MediaType.APPLICATION_JSON);
-        // 一定要記得加這個 Content-Type: application/json
+        // 一定要記得加 Content-Type: application/json
 
         Student studentRequestBody = new Student();
         studentRequestBody.setName("John");
